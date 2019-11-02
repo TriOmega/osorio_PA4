@@ -1,15 +1,3 @@
-/*Create a class called DuplicateRemover.
-
-Create an instance method called remove that takes a single parameter called dataFile (representing the path to a text file)
-and uses a Set of Strings to eliminate duplicate words from dataFile. The unique words should be stored in an instance variable
-called uniqueWords.
-
-Create an instance method called write that takes a single parameter called outputFile (representing the path to a text file)
-and writes the words contained in uniqueWords to the file pointed to by outputFile. The output file should be overwritten if
-it already exists, and created if it does not exist.
-
-Your program should work on any text file. The TA's will provide their own version of problem1.txt when they run your code. */
-
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.TreeSet;
