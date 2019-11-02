@@ -9,7 +9,6 @@ public class DuplicateRemover {
     Set<String> uniqueWords = new TreeSet<String>();
     Scanner inFS = null;
     PrintWriter outFS = null;
-//    Paths dataFile = Paths.get("C:\\Users\\ericd\\OneDrive\\Desktop\\problem1.txt");
 
     public void remove (FileInputStream dataFile) {
         inFS = new Scanner(dataFile);
